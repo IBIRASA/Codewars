@@ -11,13 +11,22 @@ Examples
 "Hi"      ---> "Hi"
 */ 
 
-function removeExclamationMarks(str) {
-    if (str.endsWith('!')) {
-      return str.slice(0, -1);  
+function removeExclamationMarks(s) {
+    if (s.endsWith('!')) {
+        s = s.slice(0, -1);  
     }
-  
-  return str;
-  }
-  console.log(removeExclamationMarks('hello!!!'))
+    return s;
+}
+console.log(removeExclamationMarks('hello!!!')); 
+console.log(removeExclamationMarks('Hi!'));  
+console.log(removeExclamationMarks('Hi!!!'));  
+console.log(removeExclamationMarks('!Hi!'));  
+console.log(removeExclamationMarks('!Hi'));  
+console.log(removeExclamationMarks('Hi! Hi!'));
+
+
+   
+
+
 
   
