@@ -8,7 +8,7 @@ function removeEverySecondElement(arr) {
     return result;
   }
   
-  // Example usage
+
   const array = ["Keep", "Remove", "Keep", "Remove", "Keep"];
   const result = removeEverySecondElement(array);
   console.log(result);
