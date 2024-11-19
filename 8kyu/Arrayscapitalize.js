@@ -10,6 +10,10 @@ Examples:
 "Hello" --> "Hello" (the first letter was already capitalized)
 "a"     --> "A" */
 
+/*Retrieves the first char of the string*/
+/*converts frist chr to uppercse*/
+/*retrieves the rest of the string from the second character*/
+
 function capitalize(word) {
     return word.charAt(0).toUpperCase() + word.slice(1);
   }

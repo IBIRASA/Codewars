@@ -7,7 +7,7 @@ The reverse() method then reverses this new array, not the original one.*/
 
 
 function reverseList(arr) {
-    return [...arr].reverse();  // Create a new array and reverse it
+    return [...arr].reverse();  
 }
 
 console.log(reverseList([1, 2, 3, 4]));  
