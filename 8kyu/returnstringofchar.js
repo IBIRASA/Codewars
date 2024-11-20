@@ -13,5 +13,5 @@ function getInitials(str) {
         .join(''); 
 }
 
-console.log(getInitials("Hello World"));    // Output: "HW"
-console.log(getInitials("SingleWord"));     // Output: "S"
+console.log(getInitials("Hello World"));    
+console.log(getInitials("SingleWord"));     
